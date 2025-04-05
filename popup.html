@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/popup.css">
+</head>
+<body class="p-3 bg-light">
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <div class="icon-container">
+        <img src="/icons/icon.png" alt="eye" class="app-icon">
+
+      </div>
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <label class="form-label mb-0">View on Double Click</label>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="doubleClick">
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <label class="form-label mb-0">Show Eye Button</label>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="showEye">
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <label class="form-label mb-0">View on Hover</label>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="hoverReveal">
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <label class="form-label mb-0">Auto-Hide Delay (sec)</label>
+        <input id="autoHideDelay" type="number" min="1" max="10" class="form-control form-control-sm w-auto text-center" />
+      </div>
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <label class="form-label mb-0">Enable Debug Logs</label>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="debugLogs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="credit">
+    <p>
+      <a href="https://www.cybolite.com" target="_blank">
+        ShowHidePass by Cybolite
+      </a>
+    </p>
+  </div>
+
+  <script src="/js/popup.js"></script>
+</body>
+</html>
